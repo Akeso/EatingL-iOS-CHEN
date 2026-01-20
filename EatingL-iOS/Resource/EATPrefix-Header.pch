@@ -1,0 +1,24 @@
+
+//
+//  EATPrefix-Header.pch
+//  PhotoK-iOS
+//
+//  Created by admin on 2021/10/18.
+//
+
+#ifndef EATPrefix_Header_pch
+#define EATPrefix_Header_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Photos/Photos.h>
+#import <SDWebImage/SDWebImage.h>
+#import <SDWebImage/UIView+WebCache.h>
+#import "NSString+EAT.h"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define WeakSelf(weakSelf)  __weak __typeof(&*self)weakSelf = self
+#define StrongSelf(strongSelf,weakSelf) __strong __typeof(&*weakSelf)strongSelf = weakSelf
+
+#endif /* EATPrefix_Header_pch */

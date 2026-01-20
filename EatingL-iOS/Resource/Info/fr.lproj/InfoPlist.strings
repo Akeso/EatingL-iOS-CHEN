@@ -1,0 +1,2 @@
+NSPhotoLibraryAddUsageDescription = "Activez l'accès aux photos pour stocker des images dans votre bibliothèque.";
+NSUserTrackingUsageDescription = "Cela nous aidera à améliorer continuellement votre expérience produit et à vous offrir plus de contenus personnalisés et moins de publicités non pertinentes.";

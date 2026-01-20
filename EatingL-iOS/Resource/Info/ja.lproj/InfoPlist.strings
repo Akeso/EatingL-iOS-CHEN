@@ -1,0 +1,2 @@
+NSPhotoLibraryAddUsageDescription = "ライブラリに画像を保存するために写真へのアクセスを有効にしてください。";
+NSUserTrackingUsageDescription = "これにより、製品体験を継続的に改善し、よりパーソナライズされたコンテンツと関連性の低い広告を減らすことができます。";
